@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+caption {
+    font-size: 2em;
+    font-weight: bold;
+    padding: 20px;
+}
+
+table {
+    width: 700px;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+td a {
+    text-decoration: none;
+    font-weight: normal;
+    padding: 2px 6px;
+    color: #427272;
+}
+td a:hover {
+    text-decoration: underline;
+    color: 	#0000CD;
+}
+
+thead, tfoot {
+    background-color: #008080;
+    color: white;
+}
+
+.num {
+    text-align: right;
+}
+
+.porcentagem {
+    text-align: center;
+}
+
+tfoot > tr > td {
+    text-align: center;
+}
