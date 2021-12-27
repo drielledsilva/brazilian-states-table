@@ -14,18 +14,11 @@ table {
     width: 700px;
     border-collapse: collapse;
     margin: auto;
-    position: relative;
 }
 
 thead, tfoot {
     background-color: #008080;
     color: white;
-}
-
-thead > tr > th {
-    position: sticky;
-    top: -1px;
-    background-color: #008080;
 }
 
 tbody tr:nth-child(odd) { /* 2n-1 */
